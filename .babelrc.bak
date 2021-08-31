@@ -1,0 +1,15 @@
+// 按需引入配置
+{
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile",
+                "style": "css"
+            }
+        ] // `style: true` 会加载 less 文件
+    ]
+}
+
+// babel-plugin-import autoload JS 和 CSS
+// import { DatePicker } from 'antd-mobile';
